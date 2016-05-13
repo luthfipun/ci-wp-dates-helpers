@@ -14,9 +14,13 @@ or in controller
 
 <h3>Use</h3>
 
-  $date = date('2016-04-01');
+  <code>$date = "2016-04-01";</code>
   
-  echo wp_dates($date);
+  <code>echo wp_dates($date);</code>
+  
+  or
+  
+  <code>echo wp_dates(date('Y-m-d'));</code>
   
   // output
   April 01, 2016
